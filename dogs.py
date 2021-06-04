@@ -50,6 +50,6 @@ class DogsMail():
         except Exception as e:
             print('Erro ao enviar email', e)
 
-email = DogsMail(username='ruan.pablo.drive@gmail.com')
-email.requisicao(raca='poodle')
+email = DogsMail(username='Seu email')
+email.requisicao(raca='A raça que você deseja. Ex: poodle')
 email.enviar()
