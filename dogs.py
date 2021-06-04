@@ -9,9 +9,9 @@ smtp_ssl_port = 465
 
 
 class DogsMail():
-    def __init__(self, username):
+    def __init__(self, username, password):
         self.username = username
-        self.password = 'Sua senha'
+        self.password = password
         self.to_addrs = []
         self.str_emails = ''
         for i in self.to_addrs:
@@ -50,6 +50,6 @@ class DogsMail():
         except Exception as e:
             print('Erro ao enviar email', e)
 
-email = DogsMail(username='Seu email')
+email = DogsMail(username='Seu email', password='Sua senha')
 email.requisicao(raca='A raça que você deseja. Ex: poodle')
 email.enviar()
