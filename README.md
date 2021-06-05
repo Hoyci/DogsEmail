@@ -6,8 +6,8 @@ Estudo sobre como consumir uma API, como enviar emails automatizados com imagens
 ## Utilizando
 Baixe esse repositório
 Libere o uso de apps menos seguro no seu email.
-Inclua seu email e sua senha na linha 70.
-Caso queira enviar uma imagem aleatória, rode o código sem passar nenhum parâmetro na linha 71.
-Caso queira enviar uma imagem de uma raça especifica, inclua a raça na linha 71 e caso tenha uma sub-raça especifica, coloque como parâmetro.
+Inclua seu email e sua senha na linha 81.
+Caso queira enviar uma imagem aleatória, rode o código sem passar nenhum parâmetro na linha 82.
+Caso queira enviar uma imagem de uma raça especifica, inclua a raça na linha 82 e caso tenha uma sub-raça especifica, coloque como parâmetro.
 
 
